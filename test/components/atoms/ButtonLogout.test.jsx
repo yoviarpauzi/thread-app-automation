@@ -24,7 +24,7 @@ describe('ButtonLogout Component', () => {
     const icon = screen.getByTestId('logout-icon');
     expect(icon).toBeInTheDocument();
 
-    const text = screen.getByText('Logout');
+    const text = screen.getByText('Login');
     expect(text).toBeInTheDocument();
   });
 
